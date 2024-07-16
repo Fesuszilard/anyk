@@ -19,11 +19,11 @@ docker run -it -p 5900:5900 --name anyk_app_container ubuntu-gui:20.04
 
 install anyk inside the container:
 
-instal the Tigervnc
+instal the Tigervnc on the host
 
 start the TigerVNC use: localhost:5900 password: 1234
 
-open terminal:
+open terminal in the container:
 
 java -jar /root/Download/abevjava_install.jar
 
